@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -9,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Documentation = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-indigo-50 p-4">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-100 p-4">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <div className="mb-8">
@@ -21,7 +20,7 @@ const Documentation = () => {
           </Link>
           
           <div className="flex items-center gap-3 mb-4">
-            <BookOpen className="h-10 w-10 text-blue-600" />
+            <BookOpen className="h-10 w-10 text-purple-600" />
             <h1 className="text-4xl font-bold text-gray-900">
               Documentación Completa
             </h1>
@@ -29,6 +28,9 @@ const Documentation = () => {
           <p className="text-lg text-gray-600">
             Guía exhaustiva del Método Húngaro: teoría, implementación y funcionamiento de la aplicación
           </p>
+          <div className="mt-4 text-sm text-gray-500">
+            Desarrollado por: Erick Barbosa y Jerónimo Sánchez
+          </div>
         </div>
 
         {/* Índice */}
@@ -67,7 +69,7 @@ const Documentation = () => {
         <Card className="mb-8 shadow-lg">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
-              <Target className="h-6 w-6 text-blue-600" />
+              <Target className="h-6 w-6 text-purple-600" />
               1. ¿Qué es el Método Húngaro?
             </CardTitle>
           </CardHeader>
@@ -78,9 +80,9 @@ const Documentation = () => {
               Su propósito es resolver problemas de asignación óptima de manera eficiente.
             </p>
 
-            <div className="bg-blue-50 p-4 rounded-lg">
+            <div className="bg-purple-50 p-4 rounded-lg">
               <h4 className="font-semibold mb-2 flex items-center gap-2">
-                <Lightbulb className="h-5 w-5 text-blue-600" />
+                <Lightbulb className="h-5 w-5 text-purple-600" />
                 Problema que Resuelve
               </h4>
               <p>

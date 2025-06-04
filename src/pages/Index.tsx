@@ -98,13 +98,13 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-100 p-4">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-8">
           <div className="flex items-center justify-center gap-3 mb-4">
             <Calculator 
-              className="h-10 w-10 text-blue-600 cursor-pointer hover:text-blue-800 transition-colors" 
+              className="h-10 w-10 text-purple-600 cursor-pointer hover:text-purple-800 transition-colors" 
               onClick={handleCalculatorClick}
             />
             <h1 className="text-4xl font-bold text-gray-900">
@@ -115,6 +115,9 @@ const Index = () => {
             Resuelve problemas de asignación óptima usando el algoritmo húngaro. 
             Ingresa tu matriz de costos o beneficios y encuentra la asignación óptima.
           </p>
+          <div className="mt-4 text-sm text-gray-500">
+            Desarrollado por: Erick Barbosa y Jerónimo Sánchez
+          </div>
         </div>
 
         {/* Configuration Panel */}
